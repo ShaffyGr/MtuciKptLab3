@@ -38,7 +38,7 @@ public class Location
     @Override
     public int hashCode() {
         int result = xCoord;
-        result = 31 * result + yCoord;
+        result = 15 * result + yCoord;
         return result;
     }
 }
